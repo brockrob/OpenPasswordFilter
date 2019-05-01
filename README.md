@@ -49,7 +49,7 @@ Note, you do not include the `.dll` extension in the registry key -- just `OpenP
 
 Next, you will want to configure the OPF service.  You can do so as follows:
 
-    > sc create OPF binPath= <full path to exe>\opfservice.exe start= boot
+    > sc create OPF binPath= "<full path to exe>\opfservice.exe" start= boot
 
 You can then start or stop the OPF service from the command line (as an administrator) with:
     
